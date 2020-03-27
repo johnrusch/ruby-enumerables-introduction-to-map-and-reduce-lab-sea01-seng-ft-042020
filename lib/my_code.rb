@@ -38,10 +38,10 @@ def reduce_to_total(source_array, starting_point)
   binding.pry
   counter = 0 
   total = 0 
-  binding.pry
-  # while counter < source_array.length do
-  #   total += source_array[counter]
-  #   counter += 1 
-  # end
+  while counter < source_array.length do
+    total += source_array[counter]
+    counter += 1 
+  end
+  total += starting_point
   total
 end
